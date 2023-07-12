@@ -1,3 +1,4 @@
+//Open GOOGLE press F12 -> put CODE to console, open insta POST
 
 
 
@@ -20,7 +21,7 @@ var likes = document.querySelectorAll('._aamw');
 
 for (var i = 0; i < likes.length; i++) {
 
-	likes[i].querySelector('button').click();
+	likes[i].querySelector("div[role='button']").click();
 	countL++
 
 }
@@ -45,7 +46,8 @@ else
 
 
 let like = document.getElementsByClassName('_aamw');
-like[0].querySelector('button').click();
+console.log(like[0]);
+like[0].querySelector("div[role='button']").click();
 countL++
 			  var minSec = 6, 
 			  maxSec = 20;
